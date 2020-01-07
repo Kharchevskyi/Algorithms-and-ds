@@ -1,5 +1,10 @@
-import UIKit
+/*:
+ [< Previous](@previous)           [Home](Introduction)           [Next >](@next)
 
+ # Linked List
+*/
+
+import Foundation
 
 example(of: "creating and linking nodes") {
     let node1 = Node(value: 1)
@@ -54,7 +59,7 @@ example(of: "pop") {
     let poppedValue = list.pop()
     print("After popping list: \(list)")
     print("Popped value: " + String(describing: poppedValue))
-} 
+}
 
 
 example(of: "removing the last node") {
@@ -133,8 +138,8 @@ example(of: "Reversed") {
     list1.append(2)
     list1.append(3)
 
-    print(list1.printReversed())
-    printInReverse(list1)
+//    print(list1.printReversed())
+//    printInReverse(list1)
 }
 
 example(of: "getting the middle node") {
@@ -146,14 +151,13 @@ example(of: "getting the middle node") {
 
     print(list)
 
-    if let middleNode = getMiddle(list) {
-        print(middleNode)
-    }
+//    if let middleNode = getMiddle(list) {
+//        print(middleNode)
+//    }
 }
 
 // MARK: - Reverse
 extension LinkedList {
-
     mutating func reverse() {
         tail = head
         var prev = head
@@ -182,8 +186,10 @@ example(of: "reversing a list") {
 }
 
 // MARK: - Merge
-func mergeSorted<T: Comparable>(_ left: LinkedList<T>,
-                                _ right: LinkedList<T>) -> LinkedList<T> {
+func mergeSorted<T: Comparable>(
+    _ left: LinkedList<T>,
+    _ right: LinkedList<T>
+) -> LinkedList<T> {
     guard !left.isEmpty else {
         return right
     }
@@ -255,22 +261,6 @@ example(of: "merging two lists") {
 }
 
 
-// MARK: - Stack
-
-example(of: "using a stack") {
-    var stack = Stack<Int>()
-    stack.push(1)
-    stack.push(2)
-    stack.push(3)
-    stack.push(4)
-
-    print(stack)
-
-    if let poppedElement = stack.pop() {
-        assert(4 == poppedElement)
-        print("Popped: \(poppedElement)")
-    }
-}
 
 // MARK: - QUEUE
 
@@ -305,3 +295,8 @@ public struct QueueArray<T>: Queue {
 }
 
 
+
+
+//: [Next](@next)
+
+ 

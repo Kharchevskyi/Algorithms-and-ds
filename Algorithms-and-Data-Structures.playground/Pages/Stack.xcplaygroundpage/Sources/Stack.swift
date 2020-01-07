@@ -17,7 +17,6 @@ public struct Stack<Element> {
 }
 
 extension Stack: CustomStringConvertible {
-
     public var description: String {
         let topDivider = "----top----\n"
         let bottomDivider = "\n-----------"
