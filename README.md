@@ -4,11 +4,11 @@
 
 <p align="center">
   <a href="#description">Description</a> •
-  <a href="#table-of-contents">Table of Contents</a> •
+  <a href="#table-of-contents">Table of Contents</a> 
 </p> 
 
-## Description
+# Description
 Usefull playground to learn Data Structures and Algorithms. 
 
-## Table of Contents
+# Table of Contents
 * Linked List
