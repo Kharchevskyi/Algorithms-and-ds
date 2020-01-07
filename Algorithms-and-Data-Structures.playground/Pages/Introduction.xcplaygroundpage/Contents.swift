@@ -10,7 +10,7 @@
  ## Table of Contents
  * [Linked List](Linked%20List)
  * [Stack](Stack)
+ * [Queue](Queue)
 
- 
  [< Previous](@previous)           [Next >](@next)
  */

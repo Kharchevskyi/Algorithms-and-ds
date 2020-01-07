@@ -4,6 +4,7 @@
  # Linked List
  
  Uniderectional linear sequence of elements where each element points to the next. 
+ ![Example](Ll.png)
  
  ## Interace
  * push
@@ -12,14 +13,9 @@
  * inserting at index
  * remove last
  
- ## Chalenges
- * reversed
- * merge
- 
- ## Links
+ ### Links
  [Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
 */
-
 import Foundation
 
 example(of: "creating and linking nodes") {
