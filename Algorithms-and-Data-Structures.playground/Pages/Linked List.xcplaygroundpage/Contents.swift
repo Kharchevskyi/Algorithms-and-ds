@@ -2,6 +2,22 @@
  [< Previous](@previous)           [Home](Introduction)           [Next >](@next)
 
  # Linked List
+ 
+ Uniderectional linear sequence of elements where each element points to the next. 
+ 
+ ## Interace
+ * push
+ * pop
+ * append
+ * inserting at index
+ * remove last
+ 
+ ## Chalenges
+ * reversed
+ * merge
+ 
+ ## Links
+ [Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
 */
 
 import Foundation
@@ -35,13 +51,14 @@ example(of: "append") {
     print(list)
 }
 
-example(of: "inserting at a particular index") {
+example(of: "inserting at index") {
     var list = LinkedList<Int>()
     list.push(3)
     list.push(2)
     list.push(1)
 
     print("Before inserting: \(list)")
+    
     var middleNode = list.node(at: 1)!
     for _ in 1...4 {
         middleNode = list.insert(-1, after: middleNode)
@@ -62,7 +79,7 @@ example(of: "pop") {
 }
 
 
-example(of: "removing the last node") {
+example(of: "remove last") {
     var list = LinkedList<Int>()
     list.push(3)
     list.push(2)
@@ -259,42 +276,6 @@ example(of: "merging two lists") {
     let mergedList = mergeSorted(list, anotherList)
     print("Merged list: \(mergedList)")
 }
-
-
-
-// MARK: - QUEUE
-
-public protocol Queue {
-    associatedtype Element
-    mutating func enqueue(_ element: Element) -> Bool
-    mutating func dequeue() -> Element?
-    var isEmpty: Bool { get }
-    var peek: Element? { get }
-}
-
-public struct QueueArray<T>: Queue {
-    private var array: [T] = []
-    public init() {}
-
-    public var isEmpty: Bool {
-        return array.isEmpty // 1
-    }
-
-    public var peek: T? {
-        return array.first // 2
-    }
-
-    public mutating func enqueue(_ element: T) -> Bool {
-        array.append(element)
-        return true
-    }
-
-    public mutating func dequeue() -> T? {
-        return isEmpty ? nil : array.removeFirst()
-    }
-}
-
-
 
 
 //: [Next](@next)
