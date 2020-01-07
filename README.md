@@ -8,7 +8,7 @@
 </p> 
 
 # Description
-Usefull playground to learn Data Structures and Algorithms. 
+Usefull Swift playground to learn Data Structures and Algorithms. 
 
 # Table of Contents
 * Linked List
