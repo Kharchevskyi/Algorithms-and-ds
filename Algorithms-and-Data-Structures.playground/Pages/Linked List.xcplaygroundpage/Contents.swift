@@ -3,15 +3,20 @@
 
  # Linked List
  
- Uniderectional linear sequence of elements where each element points to the next. 
+ Uniderectional linear sequence of elements where each element points to the next.  
  ![Example](Ll.png)
  
  ## Interface
- * push
- * pop
- * append
- * inserting at index
- * remove last
+ * push `O(1)`
+ * pop `O(1)`
+ * append `O(1)`
+ * head first insertions `O(1)`
+ * tail insertion `O(n)`
+ * index insertion `O(n)`
+
+ ### Pros
+ 1. Reliable performance
+ 1. Constant time insertion
  
  ### Links
  [Wikipedia](https://en.wikipedia.org/wiki/Linked_list)

@@ -6,6 +6,10 @@
  ## Complexity
  How the algorithms performs in terms of time and memory consumtion as input increase.
  
+ ##  Big O
+ Big O is the way we describe the performance efficiency or complexity of algorithms.
+ 
+ ![Big O](Big.png)
  
  **Time Complexity** - is a measure of time required to run algorithms as the input increase.
  * Constant time - has the same run time regardless of innput size. `O(2)`

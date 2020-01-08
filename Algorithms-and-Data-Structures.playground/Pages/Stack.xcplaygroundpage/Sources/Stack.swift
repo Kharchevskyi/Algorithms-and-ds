@@ -6,6 +6,7 @@ public struct Stack<Element> {
 
     public init() { }
 
+    
     public mutating func push(_ element: Element) {
         storage.append(element)
     }
@@ -26,5 +27,15 @@ extension Stack: CustomStringConvertible {
             .reversed()
             .joined(separator: "\n")
         return topDivider + stackElements + bottomDivider
+    }
+}
+
+extension Stack: ExpressibleByArrayLiteral {
+    public init(storage: [Element]) {
+        self.storage = storage
+    }
+    
+    public init(arrayLiteral elements: Element...) {
+        storage = elements
     }
 }
