@@ -1,4 +1,5 @@
-/*: [Previous](@previous)
+/*:
+ [< Previous](@previous)           [Home](Introduction)           [Next >](@next)
  # Stack
  
  LIFO Data structure where elements which pushed in last are the first one to be popped.

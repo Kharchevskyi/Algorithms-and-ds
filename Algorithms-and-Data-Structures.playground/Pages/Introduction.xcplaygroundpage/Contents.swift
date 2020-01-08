@@ -8,9 +8,10 @@
  basics about algorithms and data structures
  
  ## Table of Contents
+ * [Basics](Basics)
  * [Linked List](Linked%20List)
  * [Stack](Stack)
  * [Queue](Queue)
-
+ 
  [< Previous](@previous)           [Next >](@next)
  */

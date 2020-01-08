@@ -6,7 +6,7 @@
  Uniderectional linear sequence of elements where each element points to the next. 
  ![Example](Ll.png)
  
- ## Interace
+ ## Interface
  * push
  * pop
  * append
