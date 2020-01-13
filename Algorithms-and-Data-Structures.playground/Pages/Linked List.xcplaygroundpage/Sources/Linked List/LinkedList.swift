@@ -6,7 +6,7 @@ public struct LinkedList<Value> {
     public init() {}
 
     public var isEmpty: Bool {
-        return head == nil
+        head == nil
     }
 
     public mutating func push(_ value: Value) {

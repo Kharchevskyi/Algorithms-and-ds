@@ -174,7 +174,10 @@ example(of: "getting the middle node") {
 //    }
 }
 
-// MARK: - Reverse
+/*: ## Chalenges
+ * Reverse
+ * Merge
+*/
 extension LinkedList {
     mutating func reverse() {
         tail = head
@@ -203,7 +206,6 @@ example(of: "reversing a list") {
     print("Reversed list: \(list)")
 }
 
-// MARK: - Merge
 func mergeSorted<T: Comparable>(
     _ left: LinkedList<T>,
     _ right: LinkedList<T>

@@ -36,11 +36,9 @@ example(of: "Stack with some storage") {
 }
 
 example(of: "initializing a stack from an array literal") {
-    var stack: Stack = [1.0, 2.0, 3.0, 4.0]
+    let stack: Stack = [1.0, 2.0, 3.0, 4.0]
     
     print(stack)
 }
-
-Excerpt From: By Matthijs Hollemans. “Data Structures & Algorithms in Swift”. Apple Books.
 
 //: [Next](@next)

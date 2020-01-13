@@ -4,6 +4,7 @@
         <page name='Introduction'/>
         <page name='Basics'/>
         <page name='Linked List'/>
+        <page name='Doubly Linked List'/>
         <page name='Stack'/>
         <page name='Queue'/>
     </pages>
