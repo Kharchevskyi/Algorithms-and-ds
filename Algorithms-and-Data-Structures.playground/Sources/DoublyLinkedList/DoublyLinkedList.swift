@@ -1,8 +1,8 @@
 import Foundation
 
 public class DoublyLinkedList<Value> {
-    private var head: Node<Value>?
-    private var tail: Node<Value>?
+    private var head: DoubleSideNode<Value>?
+    private var tail: DoubleSideNode<Value>?
     
     public init() {}
     
@@ -10,12 +10,12 @@ public class DoublyLinkedList<Value> {
         head == nil
     }
     
-    public func first() -> Node<Value>? {
+    public func first() -> DoubleSideNode<Value>? {
         head
     }
     
     public func append(_ element: Value) {
-        let newNode = Node(value: element)
+        let newNode = DoubleSideNode(value: element)
         
         guard let tailNode = tail else {
             head = newNode
@@ -28,7 +28,7 @@ public class DoublyLinkedList<Value> {
         tail = newNode
     }
     
-    public func remove(_ node: Node<Value>) -> Value {
+    public func remove(_ node: DoubleSideNode<Value>) -> Value {
         let prev = node.previous
         let next = node.next
         

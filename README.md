@@ -11,7 +11,8 @@ basics about algorithms and data structures.
 
 ![Playground](https://github.com/Kharchevskyi/Algorithms-and-ds/blob/master/Algorithms-and-Data-Structures.playground/Resources/screen.png)
 
-## Table of Contents *WIP*
+## Table of Contents
+*WIP*
  
  * Data Structures
  * Basics

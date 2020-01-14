@@ -4,17 +4,24 @@
  # Doubly Linked List
 
  Pretty simmilar to Linked List, but every node has a reference to next and to previous node
+ 
+ ## Interface
+ * append `O(1)`
+ * remove `O(1)`
+ 
 */
 
 import Foundation
 
-example(of: "creating and linking nodes") {
+example(of: "doubly linked nodes") {
     let list = DoublyLinkedList<Int>()
     list.append(3)
     list.append(2)
     list.append(1)
-    list
+    
+    
     print(list)
+    list.remove(Node(value: 2))
 }
 
 //: [Next](@next)
