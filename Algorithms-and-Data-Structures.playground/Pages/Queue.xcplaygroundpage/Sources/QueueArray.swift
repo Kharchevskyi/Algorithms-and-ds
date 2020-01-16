@@ -19,5 +19,5 @@ public class QueueArray<T>: Queue {
 }
 
 extension QueueArray: CustomStringConvertible {
-    public var description: String { String(describing: list) }
+    public var description: String { String(describing: array) }
 } 
