@@ -20,7 +20,7 @@
  
  ## Algorithms
  * Merge Sort
- * Quick Sort
+ * [Quick Sort](Quick%20Sort)
  * Merge Sort
  * Binary Search
  * Rdix Sort

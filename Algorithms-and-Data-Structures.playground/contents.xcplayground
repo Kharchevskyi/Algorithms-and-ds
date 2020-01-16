@@ -7,5 +7,6 @@
         <page name='Doubly Linked List'/>
         <page name='Stack'/>
         <page name='Queue'/>
+        <page name='Quick Sort'/>
     </pages>
 </playground>
