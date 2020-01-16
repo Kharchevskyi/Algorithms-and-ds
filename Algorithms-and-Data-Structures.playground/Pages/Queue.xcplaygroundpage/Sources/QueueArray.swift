@@ -1,34 +1,23 @@
 import Foundation
 
-public class QueueLinkedList<T>: Queue {
+public class QueueArray<T>: Queue {
+    private var array: [T] = []
     
-    private var list = DoublyLinkedList<T>()
+    public var peek: T? { array.first }
+    public var isEmpty: Bool { array.isEmpty }
+    
     public init() {}
     
     public func enqueue(_ element: T) -> Bool {
-        list.append(element)
+        array.append(element)
         return true
     }
     
     public func dequeue() -> T? {
-        guard !list.isEmpty, let element = list.first else {
-            return nil
-        }
-        return list.remove(element)
-    }
-    
-    public var peek: T? {
-        return list.first?.value
-    }
-    
-    public var isEmpty: Bool {
-        return list.isEmpty
+        array.isEmpty ? nil : array.removeFirst()
     }
 }
 
 extension QueueLinkedList: CustomStringConvertible {
-    
-    public var description: String {
-        return String(describing: list)
-    }
+    public var description: String { String(describing: list) }
 } 
