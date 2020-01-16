@@ -18,6 +18,6 @@ public class QueueArray<T>: Queue {
     }
 }
 
-extension QueueLinkedList: CustomStringConvertible {
+extension QueueArray: CustomStringConvertible {
     public var description: String { String(describing: list) }
 } 
