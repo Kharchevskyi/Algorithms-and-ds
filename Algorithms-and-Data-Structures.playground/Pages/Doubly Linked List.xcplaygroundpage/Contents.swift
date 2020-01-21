@@ -21,7 +21,7 @@ example(of: "doubly linked nodes") {
     
     
     print(list)
-    list.remove(Node(value: 2))
+    list.remove(DoubleSideNode(value: 2))
 }
 
 //: [Next](@next)

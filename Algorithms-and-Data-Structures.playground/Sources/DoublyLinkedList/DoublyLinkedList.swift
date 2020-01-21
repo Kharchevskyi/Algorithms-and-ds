@@ -4,11 +4,11 @@ public class DoublyLinkedList<Value> {
     private var head: DoubleSideNode<Value>?
     private var tail: DoubleSideNode<Value>?
     
-    public init() {}
+    public var isEmpty: Bool { head == nil }
     
-    public var isEmpty: Bool {
-        head == nil
-    }
+    public var peek: Value? { first()?.value }
+    
+    public init() {}
     
     public func first() -> DoubleSideNode<Value>? {
         head
@@ -59,6 +59,6 @@ extension DoublyLinkedList: CustomStringConvertible {
             string.append("\(node.value) -> ")
             current = node.next
         }
-        return string + "end"  
+        return string  
     }
 }

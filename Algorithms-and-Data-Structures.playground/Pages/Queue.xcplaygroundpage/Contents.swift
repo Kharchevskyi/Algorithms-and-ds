@@ -10,9 +10,11 @@
 
  ## Interface
  * Enqueue `O(1)`
- * Dequeue `O(n)`
-
- Excerpt From: By Matthijs Hollemans. “Data Structures & Algorithms in Swift”. Apple Books.
+ * Dequeue `O(n)` (Array based)
+ * Dequeue `O(1)` (Doubly Linked List based)
+ 
+ Beside of that Linked List have O(1) Operation, but it's allocate dynamically with creating a new element, array use bulk allocation.
+ 
  ## Links
  * [Wikipedia](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
  * [Studytonight](https://www.studytonight.com/data-structures/queue-data-structure)
@@ -21,8 +23,8 @@
 
 import Foundation
 
-example(of: "Enque") {
-    var queue = QueueArray<Int>()
+example(of: "QueueArray") {
+    let queue = QueueArray<Int>()
     queue.enqueue(1)
     queue.enqueue(2)
     queue.enqueue(3)
@@ -30,6 +32,20 @@ example(of: "Enque") {
     
     queue.dequeue()
     print("deque \(queue)")
+    queue.dequeue()
+    queue.dequeue()
+    queue.dequeue()
+}
+
+example(of: "QueueLinkedList") {
+    let queue = QueueLinkedList<Int>()
+    queue.enqueue(1)
+    queue.enqueue(2)
+    queue.enqueue(3)
+    print(queue)
+    
+    queue.dequeue()
+    print("deque\n\(queue)")
     queue.dequeue()
     queue.dequeue()
     queue.dequeue()

@@ -14,7 +14,7 @@
  * [Linked List](Linked%20List)
  * [Stack](Stack)
  * [Queue](Queue)
- * Trees 
+ * [Trees] (Trees)
  * Binary Tree
  * Priority Queue
  
