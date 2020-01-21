@@ -23,7 +23,7 @@ import Foundation
 
 var str = "Hello, playground"
 example(of: "Tree") {
-    let tree = TreeNode("Person")
+    let person = TreeNode("Person")
 
     let id = TreeNode("id")
     let adress = TreeNode("Adress")
@@ -33,7 +33,18 @@ example(of: "Tree") {
     let mobilePhone = TreeNode("Mobile")
     let homePhone = TreeNode("Home")
 
-    tree.add(adress)
+    person.add(id)
+    person.add(adress)
+    person.add(phone)
+    phone.add(mobilePhone)
+    phone.add(homePhone)
+    adress.add(city)
+    adress.add(street)
+
+    print("*** - Deep First iteration")
+    person.forEachDeepFirst(visit: { print($0.value) })
+    print("*** - Level Order iteration")
+    person.forEachLevelOrder(visit: { print($0.value) })
 }
 
 /*
