@@ -1,6 +1,6 @@
 import Foundation
 
-public class TreeNode<T> {
+public class TreeNode<T: Equatable> {
 
     public var value: T
     public var children: [TreeNode] = []
@@ -28,11 +28,25 @@ public extension TreeNode {
         visit(self)
         let queue = QueueArray<TreeNode>()
         children.forEach {
-            queue.enqueue($0)
+            _ = queue.enqueue($0)
         }
         while let node = queue.dequeue() {
             visit(node)
-            node.children.forEach { queue.enqueue($0) }
+            node.children.forEach { _ = queue.enqueue($0) }
         }
     }
 }
+
+public extension TreeNode {
+    func search(_ value: T) -> TreeNode? {
+        var result: TreeNode?
+
+        forEachLevelOrder { node in
+            if node.value == value {
+                result = node
+            }
+        }
+
+        return result
+    }
+} 

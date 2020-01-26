@@ -6,12 +6,8 @@
 Tree is a Data Structure whic represent and hierarchical relationships between parent and child nodes in this data structure, manage sorted data, and used to perform fast lookup operations.
 Trees are starting from the top and bracnching to the bottom.
 In a tree every child has one parent node, and every parent node. Top most node called *Root* of the tree and has no parent. And last nodes in a tree called *Leaf*. Leafs has no parents
+
 ![Example](tree.png)
-
-
- ## Interface
-
-
 
  ## Links
 
@@ -21,8 +17,7 @@ In a tree every child has one parent node, and every parent node. Top most node 
 
 import Foundation
 
-var str = "Hello, playground"
-example(of: "Tree") {
+func createTree() -> TreeNode<String> {
     let person = TreeNode("Person")
 
     let id = TreeNode("id")
@@ -41,10 +36,16 @@ example(of: "Tree") {
     adress.add(city)
     adress.add(street)
 
+    return person
+}
+
+example(of: "Tree") {
+    let tree = createTree()
+
     print("*** - Deep First iteration")
-    person.forEachDeepFirst(visit: { print($0.value) })
+    tree.forEachDeepFirst(visit: { print($0.value) })
     print("*** - Level Order iteration")
-    person.forEachLevelOrder(visit: { print($0.value) })
+    tree.forEachLevelOrder(visit: { print($0.value) })
 }
 
 /*
@@ -53,4 +54,12 @@ example(of: "Tree") {
         City    Street      Home    Mobile
 
  */
+
+example(of: "Search in a tree") {
+    let tree = createTree()
+
+    if let someData = tree.search("City") {
+        print("tree contains data about the \(someData)")
+    }
+}
 //: [Next](@next)
