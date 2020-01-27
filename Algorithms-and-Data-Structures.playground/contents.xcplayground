@@ -9,5 +9,7 @@
         <page name='Queue'/>
         <page name='Quick Sort'/>
         <page name='Trees'/>
+        <page name='Binary Tree'/>
+        <page name='Binary Search Tree'/>
     </pages>
 </playground>

@@ -43,3 +43,9 @@ public func height<T>(of node: BinaryNode<T>?) -> Int {
         height(of: node.rightChild)
     )
 }
+
+public func serializeBinary<T>(tree: BinaryNode<T>?) -> Array<T?> {
+    var result: [T?] = []
+    tree?.traverslPreOrder(visit: { result.append($0) })
+    return result
+}

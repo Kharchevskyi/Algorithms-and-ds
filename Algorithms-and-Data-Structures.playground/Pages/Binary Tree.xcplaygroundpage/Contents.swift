@@ -8,11 +8,6 @@ Binary tree - a tree where each node has at most two children. Left and Right ch
  ## Interface
 * traversal inorder/preorder/postorder `O(n)`
 
-
- ## Links
-
-[Tree](https://www.tutorialspoint.com/data_structures_algorithms/tree_data_structure.htm)
-
  */
 
 import Foundation
@@ -63,5 +58,11 @@ example(of: "post-order traversal") {
 example(of: "height") {
     let tree = createBinaryTree()
     print(height(of: tree))
+}
+
+example(of: "serialization") {
+    let tree = createBinaryTree()
+    let array = serializeBinary(tree: tree)
+    print(array)
 }
 //: [Next](@next)

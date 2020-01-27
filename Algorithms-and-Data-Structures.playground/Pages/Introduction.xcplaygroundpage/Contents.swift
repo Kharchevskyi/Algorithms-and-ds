@@ -15,7 +15,8 @@
  * [Stack](Stack)
  * [Queue](Queue)
  * [Trees] (Trees)
- * Binary Tree
+ * [Binary Tree] (Binary%20Tree)
+ * [Binary Search Tree] (Binary%20Search%20Tree)
  * Priority Queue
  
  ## Algorithms
