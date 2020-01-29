@@ -34,6 +34,14 @@ public extension BinaryNode {
     }
 }
 
+
+public extension BinaryNode {
+    var description: String {
+        String(describing: self.value)
+            + String(describing: self.leftChild)
+            + String(describing: self.rightChild)
+    }
+}
 public func height<T>(of node: BinaryNode<T>?) -> Int {
     guard let node = node else {
         return -1

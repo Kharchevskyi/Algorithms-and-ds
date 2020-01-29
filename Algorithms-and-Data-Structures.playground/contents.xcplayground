@@ -11,5 +11,6 @@
         <page name='Trees'/>
         <page name='Binary Tree'/>
         <page name='Binary Search Tree'/>
+        <page name='Tries'/>
     </pages>
 </playground>

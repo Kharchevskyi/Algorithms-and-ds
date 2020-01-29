@@ -14,6 +14,37 @@ Binary search tree - data structure where every left child must be less than the
 
 import Foundation
 
-var str = "Hello, playground"
+func balancedTree() -> BinarySearchTree<Int> {
+    var bst = BinarySearchTree<Int>()
+    bst.insert(3)
+    bst.insert(1)
+    bst.insert(4)
+    bst.insert(0)
+    bst.insert(2)
+    bst.insert(5)
+    return bst
+}
+
+example(of: "creating BST") {
+    var bst = BinarySearchTree<Int>()
+    (0...5).forEach {
+        bst.insert($0)
+    }
+    bst.root?.traverslInOrder(visit: { print($0) })
+}
+
+example(of: "search in BST") {
+    let tree = balancedTree()
+    print(tree.contains(3))
+    print(tree.contains(33))
+}
+
+example(of: "removal in BST") {
+    var tree: BinarySearchTree<Int> = balancedTree()
+    tree.remove(3)
+    tree.root?.traverslInOrder(visit: { print($0) })
+
+}
+
 
 //: [Next](@next)

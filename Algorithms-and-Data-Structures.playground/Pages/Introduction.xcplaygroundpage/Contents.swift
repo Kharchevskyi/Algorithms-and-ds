@@ -17,6 +17,7 @@
  * [Trees] (Trees)
  * [Binary Tree] (Binary%20Tree)
  * [Binary Search Tree] (Binary%20Search%20Tree)
+ * [Tries] (Tries)
  * Priority Queue
  
  ## Algorithms
