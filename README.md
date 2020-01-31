@@ -9,9 +9,12 @@ Swif Playground used to learn algorithms and data structures.
 Easy way to organize and structurize information while learning and improving 
 basics about algorithms and data structures.     
 
-![Playground](https://github.com/Kharchevskyi/Algorithms-and-ds/blob/master/Algorithms-and-Data-Structures.playground/Resources/screen.png)
+![Playground](https://github.com/Kharchevskyi/Algorithms-and-ds/blob/master/Algorithms-and-Data-Structures.playground/Resources/screen2.png)
 
 ## Table of Contents
+
+![Table](https://github.com/Kharchevskyi/Algorithms-and-ds/blob/master/Algorithms-and-Data-Structures.playground/Resources/screen.png)
+
 *WIP*
  
  * Data Structures
