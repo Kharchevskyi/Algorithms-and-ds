@@ -13,7 +13,7 @@ basics about algorithms and data structures.
 
 ## Table of Contents
 
-![Table](https://github.com/Kharchevskyi/Algorithms-and-ds/blob/master/Algorithms-and-Data-Structures.playground/Resources/screen.png)
+![Table](https://github.com/Kharchevskyi/Algorithms-and-ds/blob/master/Algorithms-and-Data-Structures.playground/Resources/toc.png)
 
 *WIP*
  
