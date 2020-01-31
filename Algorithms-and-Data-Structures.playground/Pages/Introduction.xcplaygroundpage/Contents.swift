@@ -22,13 +22,13 @@
  * Priority Queue
  
  ### Algorithms
- * [Bubble Sort](Bubble@20Sort)  O(log n2)
- * [Selection Sort](Selection@20Sort) O(log n2)
- * [Insertion Sort](Insertion@20Sort) O(log n2)
+ * [Bubble Sort](Bubble@20Sort)
+ * [Selection Sort](Selection@20Sort)
+ * [Insertion Sort](Insertion@20Sort)
  * Merge Sort
  * [Quick Sort](Quick%20Sort)
  * Merge Sort
- * [Binary Search](Binary%20Search) O(log n)
+ * [Binary Search](Binary%20Search)
  * Rdix Sort
  * Heap Sort
  * Breadth-First Search
