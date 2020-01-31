@@ -1,7 +1,7 @@
 /*:
  [< Previous](@previous)           [Home](Introduction)           [Next >](@next)
 
-# Binary Trees
+# Binary Tree
  
 Binary tree - a tree where each node has at most two children. Left and Right children.
  

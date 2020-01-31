@@ -9,22 +9,26 @@
  
  ## Table of Contents
  
- * Data Structures
+ ### Data Structures
  * [Basics](Basics)
  * [Linked List](Linked%20List)
  * [Stack](Stack)
  * [Queue](Queue)
- * [Trees] (Trees)
- * [Binary Tree] (Binary%20Tree)
- * [Binary Search Tree] (Binary%20Search%20Tree)
- * [Tries] (Tries)
+ * [Trees](Trees)
+ * [Binary Tree](Binary%20Tree)
+ * [Binary Search Tree](Binary%20Search%20Tree)
+ * [Tries](Tries)
+ * [Heap](Heap)
  * Priority Queue
  
- ## Algorithms
+ ### Algorithms
+ * [Bubble Sort](Bubble@20Sort)  O(log n2)
+ * [Selection Sort](Selection@20Sort) O(log n2)
+ * [Insertion Sort](Insertion@20Sort) O(log n2)
  * Merge Sort
  * [Quick Sort](Quick%20Sort)
  * Merge Sort
- * Binary Search
+ * [Binary Search](Binary%20Search) O(log n)
  * Rdix Sort
  * Heap Sort
  * Breadth-First Search
