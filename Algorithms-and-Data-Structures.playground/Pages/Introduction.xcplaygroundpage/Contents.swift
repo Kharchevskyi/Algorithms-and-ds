@@ -19,18 +19,16 @@
  * [Binary Search Tree](Binary%20Search%20Tree)
  * [Tries](Tries)
  * [Heap](Heap)
- * Priority Queue
  
  ### Algorithms
  * [Bubble Sort](Bubble@20Sort)
  * [Selection Sort](Selection@20Sort)
  * [Insertion Sort](Insertion@20Sort)
- * Merge Sort
+ * [Merge Sort](Merge%20Sort)
  * [Quick Sort](Quick%20Sort)
- * Merge Sort
  * [Binary Search](Binary%20Search)
- * Rdix Sort
- * Heap Sort
+ * [Radix Sort](Radix%20Search)
+
  * Breadth-First Search
  * Depth-First Search
  * Dijkstra’s Algorithm

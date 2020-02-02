@@ -19,5 +19,6 @@
         <page name='Insertion Sort'/>
         <page name='Merge Sort'/>
         <page name='Radix Sort'/>
+        <page name='QuickSort'/>
     </pages>
 </playground>
