@@ -37,4 +37,14 @@ example(of: "Binary search") {
     print(array.binarySearch(value: 115) ?? "not found")
 }
 
+import XCTest
+
+class Test: XCTestCase {
+    func test_binary_search() {
+        let array = [1,3,5,6,8,9,11,12,14,17]
+        XCTAssertNotNil(array.binarySearch(value: 3))
+    }
+}
+
+Test.defaultTestSuite.run()
 //: [Next](@next)

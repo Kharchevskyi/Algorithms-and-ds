@@ -36,7 +36,7 @@
 
  ### Other
  * [Factorials](Factorials)
- * [Fibonacci] (Fibonacci)
+ * [Fibonacci](Fibonacci)
 
  [< Previous](@previous)           [Next >](@next)
  */

@@ -37,4 +37,8 @@ basics about algorithms and data structures.
  * Depth-First Search
  * Dijkstra’s Algorithm
  * Prim’s Algorithm
+ 
+ ## Other
+ * Fibonacci
+ * Factorial
 
