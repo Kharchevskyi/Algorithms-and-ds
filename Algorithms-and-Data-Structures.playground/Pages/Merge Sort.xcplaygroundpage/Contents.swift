@@ -20,8 +20,7 @@ public func mergeSort<Element>(_ array: [Element]) -> [Element]
     where Element: Comparable {
 
     guard array.count > 1 else { return array }
-
-
+ 
     let middle = array.count / 2
     let leftArray = Array(array[..<middle])
     let rightArray = Array(array[middle...])

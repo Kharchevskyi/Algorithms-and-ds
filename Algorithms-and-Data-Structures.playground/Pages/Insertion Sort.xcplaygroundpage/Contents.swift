@@ -14,9 +14,8 @@ public func insertionSort<T>(_ collection: inout T)
     where T: BidirectionalCollection & MutableCollection,
     T.Element: Comparable
 {
-        guard collection.count >= 2 else {
-            return
-        }
+        guard collection.count >= 2 else { return }
+
         for current in collection.indices {
             var shifting = current
             while shifting > collection.startIndex {
@@ -31,11 +30,32 @@ public func insertionSort<T>(_ collection: inout T)
         }
 }
 
+extension Array where Element: Comparable {
+
+    public mutating func insertionSort() {
+        for iterationIndex in 0 ..< self.count {
+
+            var swapIndex = iterationIndex
+
+            while swapIndex > 0 {
+                if self[swapIndex] < self[swapIndex - 1] {
+                    swapAt(swapIndex, swapIndex - 1)
+                    swapIndex -= 1
+                } else {
+                    break
+                }
+
+            }
+        }
+    }
+}
+
 example(of: "insertion sort") {
     var array = [9,3,12,4,5]
     print(array)
     insertionSort(&array)
     print(array)
 }
+
 
 //: [Next](@next)

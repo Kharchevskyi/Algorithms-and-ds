@@ -33,6 +33,10 @@
  * Depth-First Search
  * Dijkstra’s Algorithm
  * Prim’s Algorithm
- 
+
+ ### Other
+ * [Factorials](Factorials)
+ * [Fibonacci] (Fibonacci)
+
  [< Previous](@previous)           [Next >](@next)
  */

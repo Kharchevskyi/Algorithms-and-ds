@@ -20,5 +20,7 @@
         <page name='Merge Sort'/>
         <page name='Radix Sort'/>
         <page name='QuickSort'/>
+        <page name='Factorials'/>
+        <page name='Fibonacci'/>
     </pages>
 </playground>

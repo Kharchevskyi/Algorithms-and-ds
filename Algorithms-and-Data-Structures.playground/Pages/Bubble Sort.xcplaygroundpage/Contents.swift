@@ -15,7 +15,7 @@ public func bubbleSort<Element>(_ collection: inout [Element]) where Element: Co
     var isSwapped = true
     while isSwapped {
         isSwapped = false
-        for index in 1..<collection.count {
+        (1..<collection.count).forEach { index in
             if collection[index] < collection[index-1] {
                 collection.swapAt(index - 1, index)
                 isSwapped = true
