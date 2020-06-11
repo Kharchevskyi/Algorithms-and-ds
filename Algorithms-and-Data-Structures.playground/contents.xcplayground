@@ -22,5 +22,8 @@
         <page name='QuickSort'/>
         <page name='Factorials'/>
         <page name='Fibonacci'/>
+        <page name='Graphs'/>
+        <page name='TODO'/>
+        <page name='HashTable'/>
     </pages>
 </playground>

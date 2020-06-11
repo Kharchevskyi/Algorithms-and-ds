@@ -19,6 +19,7 @@
  * [Binary Search Tree](Binary%20Search%20Tree)
  * [Tries](Tries)
  * [Heap](Heap)
+ * [HashTable] (HashTable)
  
  ### Algorithms
  * [Bubble Sort](Bubble@20Sort)
@@ -28,6 +29,8 @@
  * [Quick Sort](Quick%20Sort)
  * [Binary Search](Binary%20Search)
  * [Radix Sort](Radix%20Search)
+
+ * Graphs [Graphs]
 
  * Breadth-First Search
  * Depth-First Search
