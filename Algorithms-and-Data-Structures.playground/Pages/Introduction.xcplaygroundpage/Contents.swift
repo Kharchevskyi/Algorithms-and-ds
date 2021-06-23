@@ -41,5 +41,10 @@
  * [Factorials](Factorials)
  * [Fibonacci](Fibonacci)
 
+ ### Questions
+ * [ValidateSubsequence](ValidateSubsequence)
+ * [TwoNumberSum](TwoNumberSum)
+ * [SquaredSortedArray](SquaredSortedArray)
+
  [< Previous](@previous)           [Next >](@next)
  */

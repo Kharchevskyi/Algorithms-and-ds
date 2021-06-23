@@ -1,6 +1,6 @@
-//: [Previous](@previous)
 /*:
-
+ [< Previous](@previous)           [Home](Introduction)           [Next >](@next)
+ 
  https://medium.com/flawless-app-stories/how-to-implement-a-hashtable-using-swift-aea632ee75ac
  Basically their insertion and fetch are made in constant time — O(1)
 */
