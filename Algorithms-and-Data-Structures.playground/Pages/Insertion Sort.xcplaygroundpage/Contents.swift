@@ -50,16 +50,15 @@ extension Array where Element: Comparable {
     }
 }
 
-func insertionSort(_ array: [Int]) -> [Int] {
-    var a = array
-    for x in 1..<a.count {
+func insertionSort(_ array: inout [Int]) -> [Int] {
+    for x in 1 ..< array.count {
         var y = x
-        while y > 0 && a[y] < a[y - 1] { 
-            a.swapAt(y - 1, y)
+        while y > 0 && array[y] < array[y - 1] {
+            array.swapAt(y - 1, y)
             y -= 1
         }
     }
-    return a
+    return array
 }
 
 example(of: "insertion sort") {

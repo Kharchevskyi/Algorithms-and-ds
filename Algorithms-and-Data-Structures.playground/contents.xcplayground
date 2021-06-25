@@ -27,5 +27,6 @@
         <page name='ValidateSubsequence'/>
         <page name='TwoNumberSum'/>
         <page name='SquaredSortedArray'/>
+        <page name='Non-constructible change'/>
     </pages>
 </playground>
