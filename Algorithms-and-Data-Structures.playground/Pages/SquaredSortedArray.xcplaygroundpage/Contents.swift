@@ -9,8 +9,6 @@
 
 import Foundation
 
-let array = [1, 4, 9, 25, 36, 64, 81]
-
 /// Time - O(n) | Space - O(n)
 func squaredSorted(_ array: [Int]) -> [Int] {
     var startIndex = 0
@@ -37,4 +35,4 @@ func squaredSorted(_ array: [Int]) -> [Int] {
     return result
 }
 
-print(squaredSorted(array))
+print(squaredSorted([12, -2, 4, 5]))

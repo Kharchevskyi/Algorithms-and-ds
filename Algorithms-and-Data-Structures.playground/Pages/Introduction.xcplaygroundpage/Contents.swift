@@ -45,6 +45,7 @@
  * [ValidateSubsequence](ValidateSubsequence)
  * [TwoNumberSum](TwoNumberSum)
  * [SquaredSortedArray](SquaredSortedArray)
+ * [NonConstructibleChange] (NonConstructibleChange)
 
  [< Previous](@previous)           [Next >](@next)
  */
