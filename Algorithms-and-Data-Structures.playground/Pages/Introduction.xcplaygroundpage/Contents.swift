@@ -46,6 +46,7 @@
  * [TwoNumberSum](TwoNumberSum)
  * [SquaredSortedArray](SquaredSortedArray)
  * [NonConstructibleChange] (NonConstructibleChange)
+ * [MostFrequent] (MostFrequent)
 
  [< Previous](@previous)           [Next >](@next)
  */

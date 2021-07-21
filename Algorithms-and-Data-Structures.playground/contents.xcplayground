@@ -28,5 +28,6 @@
         <page name='TwoNumberSum'/>
         <page name='SquaredSortedArray'/>
         <page name='NonConstructibleChange'/>
+        <page name='MostFrequent'/>
     </pages>
 </playground>
