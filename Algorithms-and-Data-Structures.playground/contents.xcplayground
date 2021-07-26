@@ -8,7 +8,6 @@
         <page name='Stack'/>
         <page name='Queue'/>
         <page name='Quick Sort'/>
-        <page name='Tree Example'/>
         <page name='Trees'/>
         <page name='Binary Tree'/>
         <page name='Binary Search Tree'/>
@@ -31,5 +30,7 @@
         <page name='NonConstructibleChange'/>
         <page name='MostFrequent'/>
         <page name='Graphs with Adjacency List'/>
+        <page name='Tree Example'/>
+        <page name='BreadthFirst Search'/>
     </pages>
 </playground>
